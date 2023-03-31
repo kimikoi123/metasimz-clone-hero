@@ -5,13 +5,18 @@
 @layer base {
   @font-face {
     font-family: "Lufga";
-    font-weight: 400;
+    font-weight: normal;
     src: url(/fonts/lufga/Lufga-Regular.otf);
   }
   @font-face {
     font-family: "Lufga";
-    font-weight: 700;
+    font-weight: bold;
     src: url(/fonts/lufga/Lufga-Bold.otf);
+  }
+  @font-face {
+    font-family: "Lufga";
+    font-style: italic;
+    src: url(/fonts/lufga/Lufga-BoldItalic.otf);
   }
 }
 

@@ -15,7 +15,7 @@ export default function Hero() {
           type="video/mp4"
         />
       </video>
-      <div className="container lg:w-[80rem] mx-auto px-10 md:px-4">
+      <div className="container lg:w-[81rem] mx-auto px-10 md:px-4 lg:px-0">
         <div className="py-10 lg:block flex justify-center w-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -168,12 +168,12 @@ export default function Hero() {
           </svg>
         </div>
 
-        <div className="hidden lg:block text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-md 4xl:text-3xl 5xl:text-5xl w-fit 3xl:mx-0 my-28">
+        <div className="hidden lg:block text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-md 4xl:text-3xl 5xl:text-5xl w-fit 3xl:mx-0 my-[105px]">
           What happens in VR, stays in VR.
         </div>
         <div className="py-8 lg:py-0 text-3xl lg:text-5xl font-bold italic">
           THE{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-5xl  lg:text-7xl pr-2">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-5xl  lg:text-[66px] pr-2">
             ULTIMATE
           </span>
           <br />
@@ -186,17 +186,17 @@ export default function Hero() {
             type="video/mp4"
           />
         </video>
-      <div className="container lg:w-[80rem] mx-auto px-10 md:px-4">
+      <div className="container lg:w-[81rem] mx-auto px-10 md:px-4 lg:px-0">
         <div className="lg:hidden text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-md 4xl:text-3xl 5xl:text-5xl w-fit 3xl:mx-0 my-10">
           What happens in VR, stays in VR.
         </div>
-        <div className="lg:w-[34.125rem] lg:py-24 text-xl font-normal">
+        <div className="lg:w-[34.125rem] lg:py-28 text-xl font-normal">
           Place your bets! A new concept of Casinos is about to enter the
           virtual reality. Metasimz is the first platform ever where you can
           choose to be an <span className="text-[#50BFA6]">Owner</span> or a{" "}
           <span className="text-[#50BFA6]">Player</span>. It’s a win-win!
         </div>
-        <div className="inline-block py-2">
+        <div className="inline-block pt-9 lg:pt-0">
           <div className="text-[#4458A7] text-xl">The action is on you!</div>
           <div className="flex justify-center gap-4 py-2">
             <BsTwitter size={"3rem"} />
