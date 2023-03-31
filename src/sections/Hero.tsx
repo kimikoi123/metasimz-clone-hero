@@ -3,7 +3,8 @@ import { FaTelegramPlane } from "react-icons/fa"
 
 export default function Hero() {
   return (
-    <div className="bg-[#04000b] -z-20 lg:h-screen text-white font-lufga lg:relative">
+    <div className="lg:h-screen text-white font-lufga lg:relative">
+      <div className="bg-[#04000b] absolute top-0 left-0 right-0 bottom-0 -z-20"></div>
       <video
         className="hidden lg:block absolute top-0 bottom-0 right-0 -z-10 h-screen"
         autoPlay
@@ -15,7 +16,7 @@ export default function Hero() {
           type="video/mp4"
         />
       </video>
-      <div className="container lg:w-[81rem] mx-auto px-10 md:px-4 lg:px-0">
+      <div className="container lg:w-[81rem] mx-auto px-10 md:px-4 lg:px-0 z-10">
         <div className="py-10 lg:block flex justify-center w-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -181,11 +182,11 @@ export default function Hero() {
         </div>
       </div>
       <video className="lg:hidden" autoPlay muted playsInline>
-          <source
-            src="https://metasimz-dev.s3.ca-central-1.amazonaws.com/hero.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <source
+          src="https://metasimz-dev.s3.ca-central-1.amazonaws.com/hero.mp4"
+          type="video/mp4"
+        />
+      </video>
       <div className="container lg:w-[81rem] mx-auto px-10 md:px-4 lg:px-0">
         <div className="lg:hidden text-transparent bg-clip-text bg-gradient-to-r from-[#4458A7] to-[#50BFA6] text-md 4xl:text-3xl 5xl:text-5xl w-fit 3xl:mx-0 my-10">
           What happens in VR, stays in VR.
@@ -199,8 +200,12 @@ export default function Hero() {
         <div className="inline-block pt-9 lg:pt-0">
           <div className="text-[#4458A7] text-xl">The action is on you!</div>
           <div className="flex justify-center gap-4 py-2">
-            <BsTwitter size={"3rem"} />
-            <FaTelegramPlane size={"3rem"} />
+            <a href="#">
+              <BsTwitter size={"3rem"} />
+            </a>
+            <a href="#">
+              <FaTelegramPlane size={"3rem"} />
+            </a>
           </div>
         </div>
       </div>
