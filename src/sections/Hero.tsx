@@ -200,11 +200,17 @@ export default function Hero() {
         <div className="inline-block pt-9 lg:pt-0">
           <div className="text-[#4458A7] text-xl">The action is on you!</div>
           <div className="flex justify-center gap-4 py-2">
-            <a href="#">
-              <BsTwitter size={"3rem"} />
+            {/* <div className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 before:blur relative inline-block">
+              <div className="relative">Hello</div>
+            </div> */}
+            <a
+              className="hover:before:block before:hidden before:absolute before:top-1 before:bottom-1 before:left-1 before:right-1 before:bg-[#66b3ff9a] before:blur-md relative inline-block"
+              href="#"
+            >
+              <BsTwitter className="relative" size={"3rem"} />
             </a>
-            <a href="#">
-              <FaTelegramPlane size={"3rem"} />
+            <a className="hover:before:block before:hidden before:absolute before:top-1 before:bottom-1 before:left-1 before:right-1 before:bg-[#66b3ff9a] before:blur-md relative inline-block" href="#">
+              <FaTelegramPlane className="relative" size={"3rem"} />
             </a>
           </div>
         </div>
