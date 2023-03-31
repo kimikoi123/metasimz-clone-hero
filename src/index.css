@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Lufga";
+    font-weight: 400;
+    src: url(/fonts/lufga/Lufga-Regular.otf);
+  }
+  @font-face {
+    font-family: "Lufga";
+    font-weight: 700;
+    src: url(/fonts/lufga/Lufga-Bold.otf);
+  }
+}
+
+
+
+
