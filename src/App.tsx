@@ -2,7 +2,7 @@ import Hero from './sections/Hero'
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Hero />
     </div>
   )

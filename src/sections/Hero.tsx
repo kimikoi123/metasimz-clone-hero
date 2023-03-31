@@ -3,7 +3,7 @@ import { FaTelegramPlane } from "react-icons/fa"
 
 export default function Hero() {
   return (
-    <div className="lg:h-screen text-white font-lufga lg:relative">
+    <div className="lg:h-screen text-white font-lufga relative">
       <div className="bg-[#04000b] absolute top-0 left-0 right-0 bottom-0 -z-20"></div>
       <video
         className="hidden lg:block absolute top-0 bottom-0 right-0 -z-10 h-screen"
